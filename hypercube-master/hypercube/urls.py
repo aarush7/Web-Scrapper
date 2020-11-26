@@ -12,7 +12,7 @@ urlpatterns = [
     url(r'^policy/$', ebooks_views.policy, name='policy'),
     url(r'^contact/$', ebooks_views.contact_us, name='contact'),
 
-    url(r'^admin/', include(admin.site.urls)),
+    # url(r'^admin/', include(admin.site.urls)),
 ]
 
 if settings.DEBUG:
